@@ -1,61 +1,66 @@
 <!DOCTYPE html>
 <html>
-	<style>
-		* {
-		  box-sizing: border-box;
-		}
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-		/* Create two equal columns that floats next to each other */
-		.column {
-			float: left;
-		  width: 50%;
-		  padding: 10px;
-		}
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+    }
 
-		/* Clear floats after the columns */
-		.row:after {
-		  content: "";
-		  display: table;
-		  clear: both;
-		}
-	</style>
-	<head>
-		<title>Erica Liu</title>
-    		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-		<div class="row">
-			<div class="column">
-        		<h2>Hi there, I'm Erica</h2>
-				<p>
-					I am a PhD candidate at University of Waterloo, supervised by Stephen Melzcer.
-				
-				</p>
-    			</div>
-			<div class="column">
-				<p float="left">
-					<img src="DSC04942.jpeg" width="350" />
-				</p>
-			</div>
-		</div>
-		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:e237liu@uwaterloo">email</a></li>
-        		<li><a href="https://github.com/Erica-Liu">github.com/Erica-Liu</a></li>
-			</ul>
-		</footer>
-	</body>
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+  <head>
+    <title>Erica Liu</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/cv">CV</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="blurb">
+        <div class="row">
+          <div class="column">
+            <h2>Hi there, I'm Erica</h2>
+            <p>
+              I am a PhD student in Combinatorics and Optimization at the University of Waterloo,
+              supervised by Stephen Melczer.
+            </p>
+            <p>
+              My research interests include analytic combinatorics, algebraic geometry, and
+              symbolic computation.
+            </p>
+            <p>
+              I have also worked on machine learning systems, theorem proving, and benchmarking
+              during internships at Google and Facebook AI.
+            </p>
+          </div>
+          <div class="column">
+            <p float="left">
+              <img src="DSC04942.jpeg" width="350" alt="Erica Liu" />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <ul>
+        <li><a href="mailto:erica.liu1@uwaterloo.ca">email</a></li>
+        <li><a href="https://github.com/Erica-Liu">github.com/Erica-Liu</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
